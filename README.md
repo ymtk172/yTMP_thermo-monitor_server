@@ -8,12 +8,7 @@ for yTMP thermo monitor server
 # Usage
 ## PostgreSQL(schema:test00)
 for thermo-monitor server
-access by `jdbc:postgresql://localhost:5432/test00`
-
-
-## PostgreSQL(schema:test01)
-for user-api server
 access by `jdbc:postgresql://localhost:5432/test01`
 
 ## Redis
-initial state
+initial state(no password)
