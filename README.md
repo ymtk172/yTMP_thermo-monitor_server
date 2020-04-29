@@ -1,6 +1,13 @@
 # About
 for yTMP thermo monitor server
 
+# Requirement
+* VirtualBox
+* Vagrant
+
+# How to use
+`vagrant up`
+
 # Includes
 * PostgreSQL 12.2
 * Redis 5.0.6
