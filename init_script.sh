@@ -17,5 +17,5 @@ cd /home/vagrant/redis
 ### sudo docker exec -it appdb bash
 ### sudo docker logs appdb
 ## exec psql
-sudo docker exec -it appdb /bin/bash -c "psql -U test01 -c \"select * from user;\""
-sudo docker exec -it appdb /bin/bash -c "psql -U test01 -c \"select * from users;\""
+# sudo docker exec -it appdb /bin/bash -c "psql -U test01 -c \"select * from user;\""
+# sudo docker exec -it appdb /bin/bash -c "psql -U test01 -c \"select * from users;\""
