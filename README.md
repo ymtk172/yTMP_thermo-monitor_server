@@ -4,9 +4,17 @@ for yTMP thermo monitor server
 # Requirement
 * VirtualBox
 * Vagrant
+* AWS CLI
+* DynamoDB Local(Downloadable Version) via localhost:8000
 
 # How to use
-`vagrant up`
+```
+vagrant up
+# run DynamoDB Local on host computer
+java -Djava.library.path=.\DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+# execute below only once for DynamoDB setup
+aws dynamodb create-table --cli-input-json file://LOGIN_HISTORY.json --endpoint-url http://localhost:8000
+```
 
 # Includes
 * PostgreSQL 12.2
